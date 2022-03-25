@@ -1,0 +1,42 @@
+ground
+地皮 
+collision
+不可移动地区的外部表达  树;
+collision2
+就是一些装饰
+meta
+利用的can图块集
+红色move属性不可移动
+蓝色eat属性可被破坏
+can
+利用同样是can图块集
+红色 hot 烧伤 格子被破坏后爆炸区域形成;
+绿色 poison 中毒 被破坏后毒雾形成;
+蓝色 cold 冰锥 被破坏后发射冰锥;
+黄色 cross 就是一幅地图中不同房间之间道路连接的栅栏;房间通过后cross 未通过反之;
+
+别吐槽英语！
+
+1.2版本
+
+增添三种对象层
+1.monster 其中不同的monster 是以 monster_%d 区别
+一个monster以monster%d 区别
+无特殊属性
+
+2 treasure 
+宝箱房间
+增加4个属性
+1.resouceChest  资源宝箱  对应绿色;
+2.shop 商店 你懂的；
+3.silverChest 银质宝箱 对应银色  稍微高级点的那个武器啥的;
+4.woodenChest 木制宝箱 对应木头 lower
+
+3 adventrue
+事件房间 冒险房间
+
+1.blueMine 蓝矿 可获得魔力值
+2.goldMine 金矿 可获得金币
+3.statue 雕像 获得强力职业buff
+4.strengthenWeapons 强化武器 携带不同的强化水晶？
+5.waterFountain 饮水机 回血
