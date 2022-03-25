@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="63" height="28" tilewidth="48" tileheight="48" infinite="0" nextlayerid="8" nextobjectid="14">
+ <tileset firstgid="1" source="C:/Users/10614/Desktop/Resources/Resources/Inside_A2.tsx"/>
+ <tileset firstgid="193" source="C:/Users/10614/Desktop/Resources/Resources/SF_Outside_B.tsx"/>
+ <tileset firstgid="449" source="C:/Users/10614/Desktop/Resources/Resources/SF_Outside_C.tsx"/>
+ <tileset firstgid="705" source="C:/Users/10614/Desktop/Resources/Resources/Outside_B.tsx"/>
+ <tileset firstgid="961" source="C:/Users/10614/Desktop/Resources/Resources/SF_Inside_B.tsx"/>
+ <tileset firstgid="1217" source="C:/Users/10614/Desktop/Resources/Resources/Inside_A5.tsx"/>
+ <tileset firstgid="1345" source="C:/Users/10614/Desktop/Resources/Resources/Inside_B.tsx"/>
+ <tileset firstgid="1601" source="C:/Users/10614/Desktop/Resources/Resources/Inside_C.tsx"/>
+ <tileset firstgid="1857" source="C:/Users/10614/Desktop/Resources/Resources/SF_Inside_C.tsx"/>
+ <tileset firstgid="2113" source="C:/Users/10614/Desktop/Resources/Resources/Inside_A4.tsx"/>
+ <tileset firstgid="2353" source="C:/Users/10614/Desktop/Resources/Resources/Dungeon_C.tsx"/>
+ <tileset firstgid="2609" source="C:/Users/10614/Desktop/Resources/Resources/Outside_A2.tsx"/>
+ <tileset firstgid="2801" source="C:/Users/10614/Desktop/Resources/Resources/Outside_A1.tsx"/>
+ <tileset firstgid="2993" source="C:/Users/10614/Desktop/Resources/Resources/通行度.tsx"/>
+ <layer id="1" name="ground" width="63" height="28">
+  <data encoding="base64" compression="zlib">
+   eJztl00OgjAQRktwYdh5FOMZdO8R9EpuuIHeQLdl57LcwlsIMYShoTOdUkpBvuTFKD/Ok6EyQqxZM898tm7YZp/5wbVOrP76VTKZyh2rqag4pS3YftBdMZnKHauprDimLdh+0P0geLi4XwCu7jthJk/w7Q1v0e390O4cmuMl4W6L2nT7f2x3V2+I8ugO+39Mdx/eNdcMd7pX5IAH4p4wfYf2vN773HuBcs97iM2977cwfQ6h1rqn5v1C3GH93PVuqv84X/f73Nx9rvMFqF9qLrXbTfzo8ywCuJ+194r4Tnj9qGtTgu36eSn3kuEeKhx36jyYe4yh3DlzDnR3neFCxsbdZk4rgLtpBootNu42c1oJ3E0zUGzR3bFedmUO7lQvL9md6uUlug91m6u7/GN3m+e+pbpT8bHWcZ7lY4qPtS7GZ/nQ+QKr75RM
+  </data>
+ </layer>
+ <objectgroup id="6" name="hero" visible="0">
+  <object id="12" name="heroDir" x="1920" y="383.5" width="48" height="48"/>
+ </objectgroup>
+ <layer id="2" name="carpet" width="63" height="28">
+  <data encoding="base64" compression="zlib">
+   eJzt1jEKgCAUxvEHNeVYt+gkdYM6QXM0dLSOV1JBlIZLafn/wUMHBz9RniIAcDUkbuuqTKTO1nmiRFL13J58Mp1Hs+Rut+z5krv4aXaEYUrNY4i6gPf2tDHi7Db6PuwVG30f9rLx+ZaPPfzM9R/wVccerpU3efufnwUAAAAA4B0zPEwLzw==
+  </data>
+ </layer>
+ <layer id="3" name="furniture" width="63" height="28">
+  <data encoding="base64" compression="zlib">
+   eJztlMtKw0AUhk8zscmrlF5diVgTX8BH6NI36GVdqiK4KrbgVtsXSC26d+dScNm9G6HdKa76lwlkaBoLzeCU9nzwMTAzSc7PnAkRwzCMOV7D8X2DZ89tohIs2/G1vEtUgEU3TXXpaVtEHXgJryw5N4E3mfjevoM98ALmVmRSqWHdg76y7xvP/cATZK7CU8PZu8h7B3uwH2b/gvdL2Y+wNhVEM9hA/cd/ZD9MyORg3jWcVze3B5Eqz2t6Yxt4yZquYPvIOqYrMIfryL790NwXJdz5Mqz8w91/wP/pUUSjTt42eJ+HzD48S5m9nvDtppAu8g7gUBlX5Q9wtp870uMtIQ3gExwr40jj2f9q7iMdXAvpgiDMG2jOzTAMs462ZboCc3T3ODvDMAzD7AtzKcIupw==
+  </data>
+ </layer>
+ <objectgroup id="4" name="event" visible="0">
+  <object id="4" name="gamestart" x="1776.33" y="238.667" width="142.667" height="49"/>
+  <object id="5" name="mailbox" x="1930.67" y="289" width="31" height="47"/>
+  <object id="6" name="readingtext" x="1439.33" y="240.333" width="48.3333" height="95"/>
+  <object id="7" name="readingtext2" x="1505.33" y="240.667" width="110.667" height="95.3333"/>
+  <object id="8" name="readingtext3" x="2258" y="337.667" width="46.3333" height="94.6667"/>
+  <object id="9" name="readingtext4" x="2304.67" y="337.667" width="47.3333" height="93.6667"/>
+  <object id="10" name="readingtext5" x="2352.67" y="337.667" width="46.6667" height="94.3333"/>
+ </objectgroup>
+ <layer id="5" name="collision" width="63" height="28" opacity="0">
+  <properties>
+   <property name="Collidable" type="bool" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztV0kOgzAM5Fr1/w/hT31Ij43SOMx4iYPwSJEQhFkwxOE4CoUxPi/fsYs/lDvb58z/iuzM/N4Xk/18/8Yu2dFrGdlH/Fea1uwspFq15/r5SK1nPiVexq8HotaOlhv5RrOzW3nZ91fy4THPSz9KT6Oxwkuvp60nyhudnVmPpPtQbpbXkl26n+2rlvpa1g7P7FLv0fZVxNNVD59di3jnZz0Y2asgnqW5kmepdkwezzHTYv1F8qwEUi/2+UZ9d96o7P/H7bmnZPf03a7BOyIy+0hjJ1T2+2to8PTs2n0Ro3FHVPZ8jgx4/k98AQuoiC4=
+  </data>
+ </layer>
+</map>
