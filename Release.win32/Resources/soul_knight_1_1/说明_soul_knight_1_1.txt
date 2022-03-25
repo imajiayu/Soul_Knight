@@ -1,0 +1,6 @@
+can.tsx 对应can  红 表烧伤  绿表中毒 蓝表冻伤 黄表道路不通过  对应road图层
+Outside_A4 对应Outside_A4 表示groud图层
+Outside_A1 对应Outside_A1表示ground2图层
+Outside_B 表示collision图层
+TileB表示collision2图层
+meta 表示 障碍物层  meta图层  第一个红块表示不可移动 第三个蓝块表示可以被消灭(具有HP的格子)
