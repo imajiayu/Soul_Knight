@@ -1,0 +1,12 @@
+﻿  GlobalParameter.cpp
+D:\cocos2d_file\soulKnight\Classes\GlobalParameter.h(41): warning C4091: “static ”: 没有声明变量时忽略“GlobalParameter::<unnamed-enum-LeftSide>”的左侧
+    正在创建库 D:\cocos2d_file\soulKnight\proj.win32\Release.win32\soulKnight.lib 和对象 D:\cocos2d_file\soulKnight\proj.win32\Release.win32\soulKnight.exp
+  正在生成代码
+  0 of 2283 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  soulKnight.vcxproj -> D:\cocos2d_file\soulKnight\proj.win32\Release.win32\soulKnight.exe
+  Performing Custom Build Step
+  D:\cocos2d_file\soulKnight\Resources\GameData.txt -> D:\cocos2d_file\soulKnight\proj.win32\Release.win32\Resources\GameData.txt
+  复制了 1 个文件
